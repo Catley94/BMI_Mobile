@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Check your BMI</string>
+    <string name="title_activity_main">Check your BMI</string>
+    <string name="package_name">com.catley.bmi</string>
+    <string name="custom_url_scheme">com.catley.bmi</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+	"appId": "com.catley.bmi",
+	"appName": "Check your BMI",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
