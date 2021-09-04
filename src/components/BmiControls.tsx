@@ -5,15 +5,20 @@ import React from "react";
 const BmiControls: React.FC<{ onCalculate: () => void; onReset: () => void }> =
   (props) => {
     return (
-      <IonRow>
-        <IonCol className="ion-text-left">
-          <IonButton onClick={props.onCalculate}>
+      <IonRow className="ion-margin-top">
+        <IonCol size="12" size-md="6" className="ion-text-center">
+          <IonButton
+            size="large"
+            expand="block"
+            color="secondary"
+            onClick={props.onCalculate}
+          >
             <IonIcon slot="start" icon={calculatorOutline} />
             Calculate
           </IonButton>
         </IonCol>
-        <IonCol className="ion-text-right">
-          <IonButton onClick={props.onReset}>
+        <IonCol size="12" size-md="6" className="ion-text-center">
+          <IonButton onClick={props.onReset} fill="clear" color="medium">
             <IonIcon slot="start" icon={refreshOutline} />
             Reset
           </IonButton>
